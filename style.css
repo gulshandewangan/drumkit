@@ -1,0 +1,80 @@
+/* Set body background color */
+body {
+    background-color: #1d1d1d;
+  }
+  
+  /* Style header */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .guide {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .guide li {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* Style keys */
+  .keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  .key {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s ease;
+  }
+  
+  .key:hover {
+    transform: scale(1.1);
+  }
+  
+  .key:active {
+    transform: scale(0.95);
+  }
+  
+  .key.kbd {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .key.sound {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Style audio elements */
+  audio {
+    display: none;
+  }
+  
